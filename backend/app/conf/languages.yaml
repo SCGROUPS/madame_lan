@@ -1,0 +1,189 @@
+de-DE:
+  country: Germany
+  image_file: de-DE.png
+  voice_name: de-DE-KatjaNeural
+  version: (Testversion)
+  welcome: Hallo!
+  introduce: Ich bin der virtuelle Assistent für das Restaurant Madame Lân.
+  assistant: Virtueller Assistent
+  delete_history: Verlauf löschen
+  clear_history: Bildschirm löschen
+  days_of_week:
+    - Sonntag
+    - Montag
+    - Dienstag
+    - Mittwoch
+    - Donnerstag
+    - Freitag
+    - Samstag
+
+en-US:
+  country: United States
+  image_file: en-US.png
+  voice_name: en-US-JennyNeural
+  version: (Trial Version)
+  welcome: Good day!
+  introduce: I am the virtual assistant for Madame Lân Restaurant.
+  assistant: Virtual assistant
+  delete_history: Delete history
+  clear_history: Clear screen
+  days_of_week:
+    - Sunday
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
+
+fi-FI:
+  country: Finland
+  image_file: fi-FI.png
+  voice_name: fi-FI-NooraNeural
+  version: (Kokeiluversio)
+  welcome: Hei!
+  introduce: Olen virtuaaliavustaja Madame Lân -ravintolalle.
+  assistant: Virtuaaliassistentt
+  delete_history: Poista historia
+  clear_history: Tyhjennä näyttö
+  days_of_week:
+    - Sunnuntai
+    - Maanantai
+    - Tiistai
+    - Keskiviikko
+    - Torstai
+    - Perjantai
+    - Lauantai
+
+fr-FR:
+  country: France
+  image_file: fr-FR.png
+  voice_name: fr-FR-DeniseNeural
+  version: (Version d'essai)
+  welcome: Bonjour!
+  introduce: Je suis l'assistant virtuel pour le restaurant Madame Lân.
+  assistant: Assistant virtuel
+  delete_history: Effacer l'historique
+  clear_history: Effacer l'écran
+  days_of_week:
+    - Dimanche
+    - Lundi
+    - Mardi
+    - Mercredi
+    - Jeudi
+    - Vendredi
+    - Samedi
+
+it-IT:
+  country: Italy
+  image_file: it-IT.png
+  voice_name: it-IT-ElsaNeural
+  version: (Versione di prova)
+  welcome: Ciao!
+  introduce: Sono l'assistente virtuale per il ristorante Madame Lân.
+  assistant: Assistente virtuale
+  delete_history: Cancella la cronologia
+  clear_history: Schermo chiaro
+  days_of_week:
+    - Domenica
+    - Lunedì
+    - Martedì
+    - Mercoledì
+    - Giovedì
+    - Venerdì
+    - Sabato
+
+ja-JP:
+  country: Japan
+  image_file: ja-JP.png
+  voice_name: ja-JP-NanamiNeural
+  version: (試用版)
+  welcome: こんにちは!
+  introduce: 私はMadame Lânレストランのバーチャルアシスタントです。
+  assistant: バーチャルアシスタント
+  delete_history: 履歴を削除する
+  clear_history: 画面をクリア
+  days_of_week:
+    - 日曜日
+    - 月曜日
+    - 火曜日
+    - 水曜日
+    - 木曜日
+    - 金曜日
+    - 土曜日
+
+ko-KR:
+  country: Korea
+  image_file: ko-KR.png
+  voice_name: ko-KR-SunHiNeural
+  version: (체험판)
+  welcome: 안녕하세요!
+  introduce: 저는 Madame Lân 레스토랑을 위한 가상 어시스턴트입니다.
+  assistant: 가상 어시스턴트
+  delete_history: 기록 삭제
+  clear_history: 화면 지우기
+  days_of_week:
+    - 일요일
+    - 월요일
+    - 화요일
+    - 수요일
+    - 목요일
+    - 금요일
+    - 토요일
+
+pl-PL:
+  country: Poland
+  image_file: pl-PL.png
+  voice_name: pl-PL-AgnieszkaNeural
+  version: (Wersja próbna)
+  welcome: Cześć!
+  introduce: Jestem wirtualnym asystentem dla restauracji Madame Lân.
+  assistant: Wirtualny asystent
+  delete_history: Usuń historię
+  clear_history: Wyczyść ekran
+  days_of_week:
+    - Niedziela
+    - Poniedziałek
+    - Wtorek
+    - Środa
+    - Czwartek
+    - Piątek
+    - Sobota
+
+vi-VN:
+  country: Vietnam
+  image_file: vi-VN.png
+  voice_name: vi-VN-HoaiMyNeural
+  version: (Phiên bản thử nghiệm)
+  welcome: Xin chào!
+  introduce: Tôi là trợ lý số cho nhà hàng Madame Lân
+  assistant: Trợ lý ảo
+  delete_history: Xóa lịch sử
+  clear_history: Ẩn lịch sử
+  days_of_week:
+    - Chủ nhật
+    - Thứ hai
+    - Thứ ba
+    - Thứ tư
+    - Thứ năm
+    - Thứ sáu
+    - Thứ bảy
+
+zh-CN:
+  country: China
+  image_file: zh-CN.png
+  voice_name: zh-CN-XiaoxiaoNeural
+  version: (试用版)
+  welcome: 你好!
+  introduce: 我是 Madame Lân 餐厅的虚拟助手。
+  assistant: 虚拟助手
+  delete_history: 删除历史
+  clear_history: 清屏
+  days_of_week:
+    - 周日
+    - 周一
+    - 周二
+    - 周三
+    - 周四
+    - 周五
+    - 周六

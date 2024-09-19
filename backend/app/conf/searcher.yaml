@@ -1,0 +1,7 @@
+local_search: 3
+internet_search: 3
+
+search_with_emotion: False
+history_length: 2
+status_duration: 1800
+outdate_duration: 600

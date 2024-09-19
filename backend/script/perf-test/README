@@ -1,0 +1,27 @@
+## Step 1: Installation
+```
+npm install
+```
+
+## Step 2: Update Target URL
+
+1. Open the `dev-load-test-template.yml` file located in the `src/scripts` directory.
+2. Find the `target` field and update the URL to your desired target.
+
+## Step 3: Run the `auto_load_test.js`
+```
+node src/scripts/auto_load_test.js
+```
+
+## Or if want to run each test one by one:
+- Find `target` field and update the URL to your desired target in `dev-load-test.yml`
+
+Run
+```
+npm run test
+```
+
+Then if want to view result in html:
+```
+npm run report
+```

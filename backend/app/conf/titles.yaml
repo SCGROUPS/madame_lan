@@ -1,0 +1,22 @@
+default:
+  de-DE: Ich bin der virtuelle Assistent für das Restaurant Madame Lân.
+  en-US: I am the virtual assistant for Madame Lân Restaurant.
+  fi-FI: Olen virtuaaliavustaja Madame Lân -ravintolalle.
+  fr-FR: Je suis l'assistant virtuel pour le restaurant Madame Lân.
+  it-IT: Sono l'assistente virtuale per il ristorante Madame Lân.
+  ja-JP: 私はMadame Lânレストランのバーチャルアシスタントです。
+  ko-KR: 저는 Madame Lân 레스토랑을 위한 가상 어시스턴트입니다.
+  pl-PL: Jestem wirtualnym asystentem dla restauracji Madame Lân.
+  vi-VN: Tôi là trợ lý số cho nhà hàng Madame Lân.
+  zh-CN: 我是 Madame Lân 餐厅的虚拟助手。
+madame_lan_test:
+  de-DE: Ich bin der virtuelle Assistent für das Restaurant Madame Lân.
+  en-US: I am the virtual assistant for Madame Lân Restaurant.
+  fi-FI: Olen virtuaaliavustaja Madame Lân -ravintolalle.
+  fr-FR: Je suis l'assistant virtuel pour le restaurant Madame Lân.
+  it-IT: Sono l'assistente virtuale per il ristorante Madame Lân.
+  ja-JP: 私はMadame Lânレストランのバーチャルアシスタントです。
+  ko-KR: 저는 Madame Lân 레스토랑을 위한 가상 어시스턴트입니다.
+  pl-PL: Jestem wirtualnym asystentem dla restauracji Madame Lân.
+  vi-VN: Tôi là trợ lý số cho nhà hàng Madame Lân.
+  zh-CN: 我是 Madame Lân 餐厅的虚拟助手。

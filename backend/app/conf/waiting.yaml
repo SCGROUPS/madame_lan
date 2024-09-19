@@ -1,0 +1,161 @@
+default:
+  de-DE:
+    "001": 
+      text: "Entschuldigen Sie bitte, ich werde kurz nachsehen."
+      audio_path: /static/audio/waiting/de-DE/001.wav
+    "002": 
+      text: "Können Sie einen Moment warten? Ich werde das überprüfen."
+      audio_path: /static/audio/waiting/de-DE/002.wav
+    "003": 
+      text: "Bitte warten Sie einen Moment, während ich das überprüfe."
+      audio_path: /static/audio/waiting/de-DE/003.wav
+    "004": 
+      text: "Entschuldigung, könnten Sie einen Moment warten? Ich brauche etwas Zeit, um dieses Problem zu lösen."
+      audio_path: /static/audio/waiting/de-DE/004.wav
+    "005": 
+      text: "Entschuldigung, könnten Sie bitte einen Augenblick warten?"
+      audio_path: /static/audio/waiting/de-DE/005.wav
+  en-US:
+    "001": 
+      text: "Please excuse me, I'll check shortly."
+      audio_path: /static/audio/waiting/en-US/001.wav
+    "002": 
+      text: "Could you wait a moment? I need to clarify this."
+      audio_path: /static/audio/waiting/en-US/002.wav
+    "003": 
+      text: "Please wait a moment while I look into this."
+      audio_path: /static/audio/waiting/en-US/003.wav
+    "004": 
+      text: "Please bear with me while I try to resolve this."
+      audio_path: /static/audio/waiting/en-US/004.wav
+    "005": 
+      text: "Sorry, could you wait a bit? I need a moment to handle this."
+      audio_path: /static/audio/waiting/en-US/005.wav
+  fi-FI:
+    "001": 
+      text: "Anteeksi, tarkistan asian heti."
+      audio_path: /static/audio/waiting/fi-FI/001.wav
+    "002": 
+      text: "Voisitko odottaa hetken? Minun täytyy selvittää tämä asia."
+      audio_path: /static/audio/waiting/fi-FI/002.wav
+    "003": 
+      text: "Odota hetki, kun tarkistan tämän."
+      audio_path: /static/audio/waiting/fi-FI/003.wav
+    "004": 
+      text: "Pyydän hetken kärsivällisyyttä, kun yritän selvittää tämän."
+      audio_path: /static/audio/waiting/fi-FI/004.wav
+    "005": 
+      text: "Anteeksi, voisitko odottaa hetken? Tarvitsen hetken aikaa tämän käsittelemiseen."
+      audio_path: /static/audio/waiting/fi-FI/005.wav
+  fr-FR:
+    "001": 
+      text: "Excusez-moi, je vais vérifier tout de suite."
+      audio_path: /static/audio/waiting/fr-FR/001.wav
+    "002": 
+      text: "Pouvez-vous patienter un moment? Je dois clarifier cela."
+      audio_path: /static/audio/waiting/fr-FR/002.wav
+    "003": 
+      text: "Veuillez patienter un instant pendant que je vérifie cela."
+      audio_path: /static/audio/waiting/fr-FR/003.wav
+    "004": 
+      text: "Je vous prie de bien vouloir patienter pendant que j'essaie de résoudre cela."
+      audio_path: /static/audio/waiting/fr-FR/004.wav
+    "005": 
+      text: "Désolé, pourriez-vous attendre un peu? J'ai besoin d'un moment pour m'occuper de cela."
+      audio_path: /static/audio/waiting/fr-FR/005.wav
+  it-IT:
+    "001": 
+      text: "Mi scusi, verificherò subito."
+      audio_path: /static/audio/waiting/it-IT/001.wav
+    "002": 
+      text: "Potrebbe aspettare un momento? Devo chiarire questo."
+      audio_path: /static/audio/waiting/it-IT/002.wav
+    "003": 
+      text: "Aspetti un momento mentre verifico questo."
+      audio_path: /static/audio/waiting/it-IT/003.wav
+    "004": 
+      text: "Mi scuso per l'attesa, sto cercando di risolvere questo."
+      audio_path: /static/audio/waiting/it-IT/004.wav
+    "005": 
+      text: "Scusi, potrebbe aspettare un attimo? Ho bisogno di un momento per risolvere questa questione."
+      audio_path: /static/audio/waiting/it-IT/005.wav
+  ja-JP:
+    "001": 
+      text: "申し訳ありませんが、ちょっと確認させてください。"
+      audio_path: /static/audio/waiting/ja-JP/001.wav
+    "002": 
+      text: "少々お待ちいただけますか？この件について確認します。"
+      audio_path: /static/audio/waiting/ja-JP/002.wav
+    "003": 
+      text: "この件について調べますので、少々お待ちください。"
+      audio_path: /static/audio/waiting/ja-JP/003.wav
+    "004": 
+      text: "この問題を解決するため、少々お待ちください。"
+      audio_path: /static/audio/waiting/ja-JP/004.wav
+    "005": 
+      text: "申し訳ありませんが、少々お待ちいただけますか？この問題を解決する必要があります。"
+      audio_path: /static/audio/waiting/ja-JP/005.wav
+  ko-KR:
+    "001": 
+      text: "죄송합니다, 잠시만 확인해 보겠습니다."
+      audio_path: /static/audio/waiting/ko-KR/001.wav
+    "002": 
+      text: "잠시만 기다려 주실 수 있나요? 이 문제를 명확히 해 보아야 합니다."
+      audio_path: /static/audio/waiting/ko-KR/002.wav
+    "003": 
+      text: "이 문제에 대해 확인하는 동안 잠시만 기다려 주세요."
+      audio_path: /static/audio/waiting/ko-KR/003.wav
+    "004": 
+      text: "이 문제를 해결하려면 잠시만 기다려 주십시오."
+      audio_path: /static/audio/waiting/ko-KR/004.wav
+    "005": 
+      text: "죄송합니다, 잠시만 기다려 주세요. 이 문제를 처리하는 데 시간이 조금 필요합니다."
+      audio_path: /static/audio/waiting/ko-KR/005.wav
+  pl-PL:
+    "001": 
+      text: "Przepraszam, sprawdzę to wkrótce."
+      audio_path: /static/audio/waiting/pl-PL/001.wav
+    "002": 
+      text: "Czy moglibyście chwilę poczekać? Muszę to wyjaśnić."
+      audio_path: /static/audio/waiting/pl-PL/002.wav
+    "003": 
+      text: "Proszę o chwilę cierpliwości, sprawdzę to."
+      audio_path: /static/audio/waiting/pl-PL/003.wav
+    "004": 
+      text: "Proszę o chwilę cierpliwości, gdy próbuję to rozwiązać."
+      audio_path: /static/audio/waiting/pl-PL/004.wav
+    "005": 
+      text: "Przepraszam, czy moglibyście chwilę poczekać? Potrzebuję chwili na rozwiązanie tego."
+      audio_path: /static/audio/waiting/pl-PL/005.wav
+  vi-VN:
+    "001": 
+      text: "Vui lòng chờ tôi chút xíu nhé, tôi sẽ kiểm tra lại thông tin."
+      audio_path: /static/audio/waiting/vi-VN/001.wav
+    "002": 
+      text: "Bạn có thể đợi tôi một chút không? Tôi cần thời gian để làm rõ vấn đề này."
+      audio_path: /static/audio/waiting/vi-VN/002.wav
+    "003": 
+      text: "Xin lỗi về sự bất tiện này. Bạn có thể đợi tôi một chút để tìm hiểu thêm không?"
+      audio_path: /static/audio/waiting/vi-VN/003.wav
+    "004": 
+      text: "Vui lòng đợi một chút nhé, tôi sẽ cố gắng giải quyết vấn đề cho bạn."
+      audio_path: /static/audio/waiting/vi-VN/004.wav
+    "005": 
+      text: "Xin lỗi, bạn có thể đợi chút được không? Tôi cần một chút thời gian để xử lý vấn đề này."
+      audio_path: /static/audio/waiting/vi-VN/005.wav
+  zh-CN:
+    "001": 
+      text: "请原谅，我马上查看一下。"
+      audio_path: /static/audio/waiting/zh-CN/001.wav
+    "002": 
+      text: "您能稍等一下吗？我需要澄清一下这个问题。"
+      audio_path: /static/audio/waiting/zh-CN/002.wav
+    "003": 
+      text: "请稍等一下，我来查看一下。"
+      audio_path: /static/audio/waiting/zh-CN/003.wav
+    "004": 
+      text: "请您稍等片刻，我尽快处理这个问题。"
+      audio_path: /static/audio/waiting/zh-CN/004.wav
+    "005": 
+      text: "抱歉，请您稍等片刻。我需要一点时间来处理这个问题。"
+      audio_path: /static/audio/waiting/zh-CN/005.wav

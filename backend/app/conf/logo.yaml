@@ -1,0 +1,6 @@
+default:
+  png: /static/logo/madame_lan_test/logo.png
+  ico: /static/logo/madame_lan_test/logo.ico
+madame_lan_test:
+  png: /static/logo/madame_lan_test/logo.png
+  ico: /static/logo/madame_lan_test/logo.ico

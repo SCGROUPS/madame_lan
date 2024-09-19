@@ -1,0 +1,4 @@
+**/__pycache__
+*.mp4
+/app/static/audio/tmp/*.wav
+/app/static/reactjs/*

@@ -1,0 +1,27 @@
+config:
+  target: 'https://ai-assistant-v2-test.braveriver-836ab792.southeastasia.azurecontainerapps.io'
+  phases:
+    - duration: 1
+      arrivalRate: 0
+  payload:
+    - path: '../data/question.csv'
+      fields:
+        - user_query
+        - voice_code
+  http:
+    timeout: 150
+    defaults:
+      headers:
+        ClientId: 'f711ab53-2f5d-452a-884a-fcf2ddd3323c'
+  processor: './setupData.js'
+scenarios:
+  - flow:
+      - log: 'New user'
+      - post:
+          url: '/api/ask'
+          headers:
+            ClientId: 'abc'
+          beforeRequest: 'setClientId'
+          json:
+            user_query: '{{user_query}}'
+            voice_code: '{{voice_code}}'

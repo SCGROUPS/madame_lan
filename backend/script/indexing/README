@@ -1,0 +1,26 @@
+# Indexing Script
+
+This script is used for indexing docs to Azure Search
+
+## Prerequisites
+
+- Python version 3.8.10
+
+## Installation
+```shell
+pip install -r requirements.txt
+```
+
+## Configuration
+
+Update path to the input folder in the `prepdocs.sh` file.
+
+If you need to use other resources, update the environment variables in the `prepdocs.sh` file.
+
+## Running the Script
+**Add files pdf to the input folder for indexing.**
+
+To run the script, execute the following command:
+```shell
+sh prepdocs.sh
+```

@@ -1,0 +1,11 @@
+default:
+  de-DE: Hallo!
+  en-US: Hello!
+  fi-FI: Hei!
+  fr-FR: Bonjour!
+  it-IT: Ciao!
+  ja-JP: こんにちは。
+  ko-KR: 안녕하세요.
+  pl-PL: Cześć!
+  vi-VN: Xin chào!
+  zh-CN: 你好。
