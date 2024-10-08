@@ -73,13 +73,15 @@ async def internet_search(query, max_results=Config.INTERNET_SEARCH):
     response = requests.get(Config.BING_SEARCH_URL, headers=headers, params=params)
     response.raise_for_status()
     search_results = response.json()
- 
+    
+    images = []
+
     text_content = "Here is the result of internet search: \n"
     index = 1
     for search in search_results["webPages"]["value"][:max_results]:
         text_content += f"{index}. {search['name']}\n{search['snippet']}\n"
         index += 1
-    return text_content
+    return ToolResponseFormat(content=text_content, images=images)
  
 @async_timeit()
 async def get_embedding(text, model=Config.AZURE_OPENAI_EMB_DEPLOYMENT):
@@ -93,6 +95,7 @@ async def local_search(search_query, max_results=Config.LOCAL_SEARCH):
     search_query= search_query.replace("tại", "")
     search_query= search_query.replace("Madame Lân", "")
     search_query= search_query.replace("Đà Nẵng", "")
+    print(search_query)
     LOGGER.info("search_query: {}".format(search_query))
     vector = VectorizedQuery(vector=await get_embedding(search_query), k_nearest_neighbors=max_results, fields="summaryVector")
     results = AzureSearchClient.search(
@@ -113,7 +116,7 @@ async def local_search(search_query, max_results=Config.LOCAL_SEARCH):
         #images.append(result['image_links'])
         eranker_score = result.get('@search.reranker_score')
         print(eranker_score)
-        if(eranker_score>=2):
+        if(float(eranker_score)>=2.3):
             images.append(result['image_links'])
  
     return ToolResponseFormat(content=text_content, images=images)
@@ -129,12 +132,14 @@ async def search(query):
     query += " with up-to-date knowledge from the current datetime ({}).".format(get_current_date())
     if Config.INTERNET_SEARCH > 0:
         tasks['internet_search'] = asyncio.create_task(internet_search(query))
- 
+    
+
     for search_type, task in tasks.items():
         try:
             result = await task
             results[search_type] = result.content.strip()
-            image_links = result.get_args('images')
+            if search_type == 'local_search':
+                image_links=result.get_args('images')
             # print("@"*40 + f"\n{search_type} =====> {image_links}\n" + "@"*40)
         except Exception as exc:
             results[search_type] = f'{search_type} generated an exception: {exc}'
@@ -257,11 +262,11 @@ class Smart_Agent():
                                 "content": function_response.content,
                             }
                         )
-                        if Config.LOCAL_SEARCH > 0 and Config.INTERNET_SEARCH <= 0:
-                            conversation.append({
-                                "role": "system",
-                                "content": "Only respond truthfully based on the retrieved information. Do not add any information that was not provided in the retrieved results."
-                            })
+                    if Config.LOCAL_SEARCH > 0 and Config.INTERNET_SEARCH <= 0:
+                        conversation.append({
+                            "role": "system",
+                            "content": "Only respond truthfully based on the retrieved information. Do not add any information that was not provided in the retrieved results."
+                        })   
  
                     continue
  
